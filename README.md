@@ -68,3 +68,12 @@ def test_get_single_cart():
     assert response.json()['id'] == cart_id, f"Cart ID does not match {cart_id}"
 
 This project shows how to automate API endpoint tests for the FakeStoreAPI's cart section using python and pytest. You can setup the project locally by reading the README and run the tests to verify the API's functionality. 
+
+### FUTURE IMPROVEMENTS ### 
+Following improvements could be made if additional time and resources were available:
+
+1. Enhanced Test Coverage: Expand the test coverage to include more edges cases, e.g. error scenarios, and integration tests to ensure robustness.
+2. Performance Optimization: Analyze and optimize the performance to improve the overall scalability of the application.
+3. User Interfaec Refinement: Refine the user interface to enhance usability and overall user experience.
+4. Parallel Execution: Implement parallel execution of automated tests to reduce test execution time and improve efficiency, especially for large test suites, e.g. Selenium.
+5. Continuous Learning and Skill Development: Stay updated on the latest advancements in automation testing tools, frameworks, and techniques through continuous learning and skill development. 
